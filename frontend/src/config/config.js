@@ -1,2 +1,2 @@
-const backendUrl = 'https://registrationformb.vercel.app/'
+const backendUrl = 'https://registrationformb.vercel.app'
 export { backendUrl };
