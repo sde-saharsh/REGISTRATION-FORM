@@ -1,2 +1,2 @@
-const backendUrl = 'http://localhost:4000'
+const backendUrl = 'https://registrationformb.vercel.app'
 export { backendUrl };
