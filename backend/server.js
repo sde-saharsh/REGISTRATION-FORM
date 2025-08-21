@@ -12,7 +12,6 @@ const port = process.env.PORT || 4000
 //middleware 
 app.use(express.json()); 
 app.use(express.urlencoded({ extended: true }));
-const cors = require("cors");
 app.use(cors({
   origin: "https://registrationformf.vercel.app",
   methods: ["GET", "POST", "PUT", "DELETE"],
